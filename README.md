@@ -15,6 +15,7 @@ Setup:
 Cypress official document: https://docs.cypress.io/guides/end-to-end-testing/writing-your-first-end-to-end-test.
 
 Cypress Architecture
+
 ![alt text](image.png)
 
 ![alt text](image-1.png)
