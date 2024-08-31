@@ -75,6 +75,13 @@ describe('suite name', () => {
 })
 
 
+How Cypress is Unique from other Automation tool:
+1) Automatic waits.
+2) Ability to test Edge testcases by mocking the server response.
+3) Cypress takes snapshots as tests run. We can hover over each commands in the Command Log to see exactly what happened at each step.
+4) Cypress selivers fast, consistent, reliable text execution compared to other Automation tools.
+5) View video of entier test execution when run from the cypress dashboard.
+
 
 
 
