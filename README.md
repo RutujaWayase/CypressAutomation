@@ -82,7 +82,8 @@ How Cypress is Unique from other Automation tool:
 4) Cypress selivers fast, consistent, reliable text execution compared to other Automation tools.
 5) View video of entier test execution when run from the cypress dashboard.
 
-
+Selenium operate by running outside the browser and executing remote commands across the network. Cypress engine directly operates inside the browser. It is the browser that is executing your test code.
+This enables Cypress to listen and mod
 
 
 
