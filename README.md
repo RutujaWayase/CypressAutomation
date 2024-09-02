@@ -108,12 +108,23 @@ Firefox Browser:
 
 # Git commands to push commit from local branch
 git branch
+
 git add . => stagging
+
 git status
+
 git commit -m "message" => Ex: git commit -m "adding test file"
+
 git push
 
+
+
 git branch
+
 git checkout main
+
 git merge -m "merge message" localbranchname
+
 git push origin main
+
+
