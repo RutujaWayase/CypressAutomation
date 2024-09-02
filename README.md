@@ -83,9 +83,28 @@ How Cypress is Unique from other Automation tool:
 5) View video of entier test execution when run from the cypress dashboard.
 
 Selenium operate by running outside the browser and executing remote commands across the network. Cypress engine directly operates inside the browser. It is the browser that is executing your test code.
-This enables Cypress to listen and mod
+This enables Cypress to listen and modify the browser behaviour at run time by manuplating DOM. 
 
+Cypress Browser Support:
+1) Chrome
+2) Electron
+3) Firefox & IE (Under Construction)
 
+Navigating to url - visit
+Through command line, Cypress run in headless
+
+./node_modules/.bin/cypress run
+
+Headed mode:
+./node_modules/.bin/cypress run --headed
+
+Chrome Browsers:
+cypress run --browser chrome
+
+./nodemodules/.bin/cypress run --browser chrome
+
+Firefox Browser:
+./nodemodules/.bin/cypress run --browser firefox
 
 
 
