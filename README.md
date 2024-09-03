@@ -91,7 +91,11 @@ Cypress Browser Support:
 3) Firefox & IE (Under Construction)
 
 Navigating to url - visit
-Through command line, Cypress run in headless
+Through command line, Cypress run in headless in chrome/elctron/firefox.
+Update configuration in cypress.json which over rides existing behaviour.
+Cypress suports CSS selector only.
+
+![alt text](image-4.png)
 
 ./node_modules/.bin/cypress run
 
@@ -105,6 +109,10 @@ cypress run --browser chrome
 
 Firefox Browser:
 ./nodemodules/.bin/cypress run --browser firefox
+
+
+Reference:
+/// <reference types="Cypress" />
 
 # Git commands to push commit from local branch
 git branch
@@ -126,5 +134,6 @@ git checkout main
 git merge -m "merge message" localbranchname
 
 git push origin main
+
 
 
