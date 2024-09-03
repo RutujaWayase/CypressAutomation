@@ -112,7 +112,9 @@ Firefox Browser:
 
 
 Reference:
+
 /// <reference types="Cypress" />
+<reference types="Cypress" />
 
 # Git commands to push commit from local branch
 git branch
