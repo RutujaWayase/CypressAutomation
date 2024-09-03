@@ -115,6 +115,7 @@ Reference:
 
 /// <reference types="Cypress" />
 <reference types="Cypress" />
+![alt text](image-5.png)
 
 # Git commands to push commit from local branch
 git branch
