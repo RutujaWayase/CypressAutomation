@@ -117,6 +117,13 @@ Reference:
 <reference types="Cypress" />
 ![alt text](image-5.png)
 
+Cypress is asynchronous in nature and there is no guarantee in sequence of execution, but cypress takes care of it.
+
+Asyncronous step returns Promise. Promise comes with 3 different states: rejection, resolved, pending.
+'.then()' method 
+
+https://docs.cypress.io/guides/core-concepts/introduction-to-cypress
+
 # Git commands to push commit from local branch
 git branch
 
