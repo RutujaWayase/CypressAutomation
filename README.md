@@ -145,6 +145,21 @@ git merge -m "merge message" localbranchname
 
 git push origin main
 
+# cypress
+To run specific file => npx cypress run --spec relativepath
+Ex: npx cypress run --spec cypress\e2e\Tests\3_MyFirstTest.cy.js 
+
+To run on specific browser => npx cypress run --browser chrome
+
+Headed mode => npx cypress run --browser chrome --headed
+
+Hierarchy 
+TestSuite -> TestCase -> Test Steps
+
+Spec File(cy.js) ---> describe blocks(test suites) ---> it blocks(test)
+
+
+
 
 
 
