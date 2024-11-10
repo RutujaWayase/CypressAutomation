@@ -212,6 +212,8 @@ Ex:
             assert.notEqual(actName,expName)
         })
 
+# Cypress Folder Structure
+![alt text](image-6.png)
 
 
 

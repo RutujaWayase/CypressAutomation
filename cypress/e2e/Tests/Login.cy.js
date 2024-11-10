@@ -1,4 +1,4 @@
-/// <reference types="cypress"/>
+/// <reference types="Cypress"/>
 
 describe('Validate login functionality', () => {
     it('Validate login with valid credentials', () => {
