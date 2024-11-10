@@ -166,8 +166,51 @@ npm install -D cypress-xpath
 
  2) add => /// <reference types="cypress-xpath" /> in commands.js => to access all xpath related commands in all script files
 
+# e2e.js => configuration file
+1) add => require('cypress-xpath')
+
  CSS Locator => cy.get(css locator)
  XPath => cy.xpath(xpath locator)
+
+Chained xpath => cy.xpath().xpath()
+
+# Cypress Assertions
+1) Implict Assertions: should, and
+
+Keywords supported =>
+eq (positive: eq, negative: not.eq)
+contain (positive: contain, negative: not.contain)
+include
+exist
+have.length
+have.value
+
+
+
+2) Explicit Assertions: expect, assert
+
+expect: BDD approach Behaviour Driven Development
+
+assert: TDD approach Test Driven Development
+
+Assertions Chai library framework: https://docs.cypress.io/app/references/assertions
+
+Ex:
+
+ let expName="xyz";
+        cy.get("oxd-userdropdown-name").then((x) => {
+
+            let actName = x.text()
+
+            //BDD Style
+            expect(actName).to.equal(expName)
+
+            expect(actName).to.not.equal(expName) //negative assertion
+
+            //TDD Style
+            assert.equal(actName,expName)
+            assert.notEqual(actName,expName)
+        })
 
 
 
