@@ -215,6 +215,8 @@ Ex:
 # Cypress Folder Structure
 ![alt text](image-6.png)
 
+each() keyword => https://docs.cypress.io/api/commands/each
+Ex: .each(($el, index, $list) => {})
 
 
 
