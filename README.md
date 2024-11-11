@@ -218,6 +218,18 @@ Ex:
 each() keyword => https://docs.cypress.io/api/commands/each
 Ex: .each(($el, index, $list) => {})
 
+Events => https://docs.cypress.io/api/cypress-api/catalog-of-events
+
+Eg: to validate alert we use event in this formart
+
+ cy.on('window:alert', (t) => {
+            expect(t).to.contains('I am a JS Alert');
+            
+        })
+
+to cancel alert use => cy.on('window:confirm',() => false);
+
+Authentication alert => https://username:password@url.com => Eg: https://admin:admin@url.com
 
 
 
