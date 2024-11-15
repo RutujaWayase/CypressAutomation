@@ -159,12 +159,17 @@ TestSuite -> TestCase -> Test Steps
 Spec File(cy.js) ---> describe blocks(test suites) ---> it blocks(test)
 
 # XPath
-npm install -D cypress-xpath
+
+           npm install -D cypress-xpath 
 
 # commands.js
- 1) add =>  /// <reference types="Cypress" /> in commands.js => to access all cy related commands
+ 1) add => in commands.js => to access all cy related commands
+    
+            /// <reference types="Cypress" /> 
 
- 2) add => /// <reference types="cypress-xpath" /> in commands.js => to access all xpath related commands in all script files
+ 2) add => in commands.js => to access all xpath related commands in all script files
+       
+           /// <reference types="cypress-xpath" /> 
 
 # e2e.js => configuration file
 1) add => require('cypress-xpath')
@@ -197,7 +202,9 @@ Assertions Chai library framework: https://docs.cypress.io/app/references/assert
 
 Ex:
 
- let expName="xyz";
+   
+    
+    let expName="xyz";
         cy.get("oxd-userdropdown-name").then((x) => {
 
             let actName = x.text()
@@ -221,10 +228,8 @@ Ex: .each(($el, index, $list) => {})
 Events => https://docs.cypress.io/api/cypress-api/catalog-of-events
 
 Eg: to validate alert we use event in this formart
-
  
- 
- cy.on('window:alert', (t) => {
+     cy.on('window:alert', (t) => {
             expect(t).to.contains('I am a JS Alert');
             
         })
@@ -262,6 +267,8 @@ Authentication alert => https://username:password@url.com => Eg: https://admin:a
 
 
     
+
+
 
 
 
