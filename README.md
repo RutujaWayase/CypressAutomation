@@ -222,6 +222,8 @@ Events => https://docs.cypress.io/api/cypress-api/catalog-of-events
 
 Eg: to validate alert we use event in this formart
 
+ 
+ 
  cy.on('window:alert', (t) => {
             expect(t).to.contains('I am a JS Alert');
             
