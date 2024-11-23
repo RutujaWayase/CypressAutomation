@@ -238,7 +238,16 @@ to cancel alert use => cy.on('window:confirm',() => false);
 
 Authentication alert => https://username:password@url.com => Eg: https://admin:admin@url.com
 
+# iframe
+Command to install iframe plugin: npm install -D cypress-iframe
 
+3 ways to handle iframe:
+
+1) get the iframe -> get the document -> pass assertion (Eg: be.visible) -> wrap command i.e. it will return the iframe wraped in this document
+
+2) create custom command -> use the custom command -> get the iframe
+
+3) using cypress iframe plugin -> use cypress iframe commands (Eg: frameLoaded: it will load the frame) -> once frame is loaded shift to iframe -> perform operations
 
 
 

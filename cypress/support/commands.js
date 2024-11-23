@@ -29,3 +29,11 @@
 
 /// <reference types="cypress-xpath" />
 
+Cypress.Commands.add('getIframe', (iframe) => {
+    return cy.get("#mce_0_ifr")
+          .its('0.contentDocument.body')
+          .then('be.visible')
+          .then(cy.wrap);
+
+})
+
